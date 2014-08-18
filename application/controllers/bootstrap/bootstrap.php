@@ -6,14 +6,14 @@
  */
 
 /**
- * Main controller
+ * Bootstrap showcase controller
  * @author Ashod
- * @version 1.0.0 - August 14, 2014
+ * @version 1.0.0 - August 18, 2014
  * @see CI_Controller
  */
 class Main extends CI_Controller {
 	
-	const VIEW = "main/main_view.php";
+	const VIEW = "bootstrap/bootstrap_view.php";
 	
 	/**
 	 * Execute first, redirect to this view
@@ -21,6 +21,7 @@ class Main extends CI_Controller {
 	 * @since 1.0.0
 	 */
 	public function index(){
+		$this->load->helper('url');
 		$this->load->view(SELF::VIEW);
 	}//end index function
 	

@@ -8,12 +8,12 @@
     <frame>
     <frame>
     <noframes>
-    <body>
-    <p>This page uses frames. The current browser you are using does not support frames.</p>
-    <?php
-
-	?>
-    </body>
+	    <body>
+	    <p>This page uses frames. The current browser you are using does not support frames.</p>
+	    <?php
+	
+		?>
+	    </body>
     </noframes>
 </frameset>
 </html>
