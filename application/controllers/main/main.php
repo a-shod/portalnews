@@ -19,8 +19,10 @@ class Main extends CI_Controller {
 	 * Execute first, redirect to this view
 	 * @author Ashod
 	 * @since 1.0.0
+	 * @version 1.1.0 - add url helper to call base_url() function for bootstrap
 	 */
 	public function index(){
+		$this->load->helper('url');
 		$this->load->view(SELF::VIEW);
 	}//end index function
 	
